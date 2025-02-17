@@ -8,8 +8,6 @@ const express = require("express");
 // Instance of the express for configuration
 const app = express();
 
-
-
 // Server app config goes here...
 //
 // app.verb(path, callback);
