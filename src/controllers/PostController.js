@@ -12,9 +12,18 @@ async function createPost(title, content) {
     return result;
 }
 
-async function getPost() {}
+async function getPost(query) {
+    let result = await PostModel.findOne(query);
 
-async function getPosts() {}
+    return result;
+}
+
+async function getPosts() {
+    let result = await PostModel.find(query);
+
+    return result;
+
+}
 
 async function updatePost() {}
 
