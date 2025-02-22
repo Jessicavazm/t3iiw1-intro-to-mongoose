@@ -25,6 +25,8 @@ async function getPosts() {
 
 }
 
+
+// Up to me to finish these two functions
 async function updatePost() {}
 
 async function deletePost() {}
